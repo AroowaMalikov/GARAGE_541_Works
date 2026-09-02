@@ -1,0 +1,20 @@
+# Main
+numpy
+scipy
+pandas
+pytest
+pycodestyle
+coverage
+
+# ML:
+# scikit-learn
+# ipykernel
+# torch
+# matplotlib
+# seaborn
+# tqdm
+# torchsummary
+# torchvision
+
+# For docs:
+pandoc
