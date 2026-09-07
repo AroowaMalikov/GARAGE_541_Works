@@ -4,9 +4,6 @@ from random import randint
 
 exp = int(input('Enter the amount of experiments:'))
 
-'''
-Example of a big prime number is 1000003
-'''
 
 def is_prime_enum(N):
     milestone1 = time.time()
@@ -22,7 +19,6 @@ def is_prime_enum(N):
     return (True, milestone2 - milestone1, counter)
 
 # result1 = is_prime_enum(N)
-
 
 def is_prime_enum_odd(N):
     milestone1 = time.time()
@@ -63,6 +59,7 @@ def is_prime_enum_sqrt(N):
 
 def is_prime_enum_sqrt_odd(N):
     milestone1 = time.time()
+
     counter = 1
     if N % 2 == 0:
         milestone2 = time.time()
@@ -83,6 +80,7 @@ def is_prime_enum_sqrt_odd(N):
 
 '''
 Вывод для одного эксперимента:
+
 # Заголовок таблицы
 header = f"{'#':<3} {'Algorithm':<35} {'Result':<8} {'Time (s)':<12} {'Operations':<10}"
 separator = "-" * len(header)
@@ -158,21 +156,21 @@ avg_ops4  = sum(r4[2] for _, _, _, _, r4 in results) / exp
 
 # Формируем таблицу средних значений
 print("\n" + "=" * 65)
-print(f"{'СВОДНАЯ ТАБЛИЦА (Средние значения по {exp} эксп.)':^65}")
+print(f"       СВОДНАЯ ТАБЛИЦА (Средние значения по {exp} эксп.):")
 print("=" * 65)
 
 header = (
-    f"{'Algorithm':<32} | "
+    f"{'Algorithm':<33} | "
     f"{'Avg Time (s)':>12} | "
-    f"{'Avg Ops':>14}"
+    f"{'Avg Operations':>14}"
 )
 separator = "-" * len(header)
 
 print(separator)
 print(header)
 print(separator)
-print(f"{'1. ENUMERATING':<32} | {avg_time1:>12.6f} | {avg_ops1:>14.2f}")
-print(f"{'2. ENUMERATING ONLY ODD':<32} | {avg_time2:>12.6f} | {avg_ops2:>14.2f}")
-print(f"{'3. ENUMERATING TILL SQRT':<32} | {avg_time3:>12.6f} | {avg_ops3:>14.2f}")
-print(f"{'4. ENUMERATING ONLY ODD TILL SQRT':<32} | {avg_time4:>12.6f} | {avg_ops4:>14.2f}")
+print(f"{'1. ENUMERATING':<33} | {avg_time1:>12.6f} | {avg_ops1:>14.2f}")
+print(f"{'2. ENUMERATING ONLY ODD':<33} | {avg_time2:>12.6f} | {avg_ops2:>14.2f}")
+print(f"{'3. ENUMERATING TILL SQRT':<33} | {avg_time3:>12.6f} | {avg_ops3:>14.2f}")
+print(f"{'4. ENUMERATING ONLY ODD TILL SQRT':<33} | {avg_time4:>12.6f} | {avg_ops4:>14.2f}")
 print(separator)
