@@ -1,7 +1,7 @@
 # Main
-numpy
-scipy
-pandas
+# numpy
+# scipy
+# pandas
 pytest
 pycodestyle
 coverage
@@ -17,4 +17,4 @@ coverage
 # torchvision
 
 # For docs:
-pandoc
+# pandoc
