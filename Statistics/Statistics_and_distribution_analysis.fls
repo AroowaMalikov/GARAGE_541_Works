@@ -369,7 +369,11 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 OUTPUT Statistics_and_distribution_analysis.toc
-INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lati1200.tfm
+INPUT .\designations.tex
+INPUT .\designations.tex
+INPUT .\designations.tex
+INPUT .\designations.tex
+INPUT designations.tex
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\ueuf.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\ueuf.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\ueuf.fd
@@ -381,6 +385,12 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0800.tfm
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0600.tfm
+INPUT .\intro.tex
+INPUT .\intro.tex
+INPUT .\intro.tex
+INPUT .\intro.tex
+INPUT intro.tex
+INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lati1200.tfm
 INPUT .\sect_1.tex
 INPUT .\sect_1.tex
 INPUT .\sect_1.tex
@@ -394,6 +404,18 @@ INPUT .\sect_2.tex
 INPUT .\sect_2.tex
 INPUT .\sect_2.tex
 INPUT sect_2.tex
+INPUT .\sect_3.tex
+INPUT .\sect_3.tex
+INPUT .\sect_3.tex
+INPUT .\sect_3.tex
+INPUT sect_3.tex
+INPUT .\images\quad.png
+INPUT .\images\quad.png
+INPUT .\images\quad.png
+INPUT .\images\quad.png
+INPUT .\images\quad.png
+INPUT .\images\quad.png
+INPUT .\images\quad.png
 INPUT Statistics_and_distribution_analysis.aux
 INPUT .\Statistics_and_distribution_analysis.out
 INPUT .\Statistics_and_distribution_analysis.out
@@ -401,10 +423,10 @@ INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcr
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labi1200.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labi1200.pk
-INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0800.pk
-INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0800.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1200.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1200.pk
+INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0800.pk
+INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0800.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
@@ -437,5 +459,7 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\euler\eufm10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\euler\eufm10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb

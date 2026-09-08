@@ -1,4 +1,3 @@
-\section{Алгебра событий}
 \subsection{Основные определения}
 \subsubsection{События. Исходы. Пространство элементарных исходов}
 
@@ -17,7 +16,7 @@
 \end{definition}
 
 \textbf{Пример:}
-    \center\textit{Эксперимент:} бросание игральной кости.
+    \textit{Эксперимент:} бросание игральной кости.
     \begin{itemize}
     \item Пространство элементарных исходов: $\Omega = \{1, 2, 3, 4, 5, 6\}$.
     
@@ -58,3 +57,14 @@
 \begin{definition}[Объединение (сумма) событий]
 Событие $C$, происходящее тогда и только тогда, когда происходит хотя бы одно из событий $A$ или $B$, называется \textbf{объединением (суммой) событий $A$ и $B$}. Обозначение: $A \cup B$ или $A + B$.
 \end{definition}
+
+\begin{notice}
+Для операций над событиями выполнены все те свойства, что выполнены для соответствующих им множественных операций:
+\begin{enumerate}
+    \item Коммутативность: $A \cap B = B \cap A$ и $A \cup B = B \cup A$.
+    \item Ассоциативность: $A \cap (B \cap C) = (A \cap B) \cap C$ и $A \cup (B \cup C) = (A \cup B) \cup C$.
+    \item Дистрибутивность относительно пересечения: $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$.
+    \item Дистрибутивность относительно объединения: $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$.
+    \item Законы де Моргана: $\overline{A \cup B} = \overline{A} \cap \overline{B}$ и $\overline{A \cap B} = \overline{A} \cup \overline{B}$.
+\end{enumerate}
+\end{notice}
