@@ -10,3 +10,4 @@
 \contentsline {subsubsection}{\numberline {1.3.1}Мера Жордана}{9}{subsubsection.1.3.1}%
 \contentsline {subsubsection}{\numberline {1.3.2}Покрытие множества}{10}{subsubsection.1.3.2}%
 \contentsline {subsubsection}{\numberline {1.3.3}Мера Лебега}{11}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}Геометрическая вероятность}{12}{subsubsection.1.3.4}%
