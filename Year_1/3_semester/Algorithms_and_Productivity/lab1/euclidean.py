@@ -54,4 +54,5 @@ exp = int(input('Enter the amount of experiments: '))
 u_border = 10 ** 5 #upper border of a random number
 for _ in range(exp):
     N, M = randint(1, u_border), randint(1, u_border)
+
     
