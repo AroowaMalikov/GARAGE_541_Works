@@ -8,25 +8,25 @@ def heapsort(arr):
     # Построение кучи
     for i in range(n // 2 - 1, -1, -1):
         while True:
-                largest = i
-                l = 2 * i + 1
-                r = 2 * i + 2
+            largest = i
+            l = 2 * i + 1
+            r = 2 * i + 2
 
-                # Сравнение левого потомка
-                if l < n and arr[l] > arr[largest]:
-                    comparisons += 1
+            if l < n:
+                comparisons += 1
+                if arr[l] > arr[largest]:
                     largest = l
-                
-                # Сравнение правого потомка
-                if r < n and arr[r] > arr[largest]:
-                    comparisons += 1
+            
+            if r < n:
+                comparisons += 1
+                if arr[r] > arr[largest]:
                     largest = r
 
-                if largest == i:
-                    break
+            if largest == i:
+                break
 
-                arr[i], arr[largest] = arr[largest], arr[i]
-                i = largest
+            arr[i], arr[largest] = arr[largest], arr[i]
+            i = largest
 
     # Сортировка (извлечение элементов)
     for i in range(n - 1, 0, -1):
@@ -34,24 +34,25 @@ def heapsort(arr):
         i = 0
 
         while True:
-                largest = i
-                l = 2 * i + 1
-                r = 2 * i + 2
+            largest = i
+            l = 2 * i + 1
+            r = 2 * i + 2
 
-                # Сравнение левого потомка
-                if l < n and arr[l] > arr[largest]:
-                    comparisons += 1
+            # Аналогично считаем все попытки сравнения
+            if l < n:
+                comparisons += 1
+                if arr[l] > arr[largest]:
                     largest = l
-                
-                # Сравнение правого потомка
-                if r < n and arr[r] > arr[largest]:
-                    comparisons += 1
+            
+            if r < n:
+                comparisons += 1
+                if arr[r] > arr[largest]:
                     largest = r
 
-                if largest == i:
-                    break
+            if largest == i:
+                break
 
-                arr[i], arr[largest] = arr[largest], arr[i]
-                i = largest
+            arr[i], arr[largest] = arr[largest], arr[i]
+            i = largest
 
     return arr, comparisons
