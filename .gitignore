@@ -1,0 +1,68 @@
+# Cline
+.clinerules
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+wheels/
+*.egg-info
+
+# Project files
+venv
+.venv
+.venv*
+.idea/
+.DS_Store
+.env
+.vscode/
+
+# data for ml_edu
+mnist
+
+# Вспомогательные файлы LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.dvi
+*.xdv
+*.ps
+*.ind
+*.idx
+*.ilg
+*.inl
+*.run.xml
+*.bcf
+*.nlo
+*.nls
+
+# Временные файлы
+*.tmp
+*.bak
+*.swp
+*~
+*.swo
+
+# Папки с временными файлами
+_latex/
+_build/
+output/
+
+# Файлы редакторов
+.DS_Store
+Thumbs.db
+
+# Датасеты
+data*
