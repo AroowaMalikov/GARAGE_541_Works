@@ -22,19 +22,22 @@
 \contentsline {subsection}{\numberline {2.1}Интеграл Лебега}{15}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Случайная величина}{16}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Распределение случайной величины}{16}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Плотность распределения случайной величины}{16}{subsubsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3}Математическое ожидание}{17}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Дискретные случайные величины}{18}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Непрерывные случайные величины}{19}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Характеристики случайных величин}{20}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Многомерные случайные величины}{21}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Корреляция и независимость случайных величин}{22}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Условные распределения. Формулы свертки}{23}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Характеристическая функция}{24}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}Многомерное нормальное распределение}{25}{subsection.2.11}%
-\contentsline {section}{\numberline {3}Предельные теоремы}{26}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Неравенства теории вероятности}{26}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Виды сходимости случайных величин}{27}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Теорема Пуассона. Теоремы Муавра-Лапласа.}{28}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Законы больших чисел}{29}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Центральная предельная теорема}{30}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {2.2.2}Функция распределения случайной величины}{17}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Важные примечания}{18}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}Математическое ожидание}{19}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Теорема Лебега о мажорируемой сходимости}{20}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Свойства математического ожидания}{22}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}Дискретные случайные величины}{23}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Непрерывные случайные величины}{24}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Характеристики случайных величин}{25}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Многомерные случайные величины}{26}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Корреляция и независимость случайных величин}{27}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Условные распределения. Формулы свертки}{28}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Характеристическая функция}{29}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Многомерное нормальное распределение}{30}{subsection.2.11}%
+\contentsline {section}{\numberline {3}Предельные теоремы}{31}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Неравенства теории вероятности}{31}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Виды сходимости случайных величин}{32}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Теорема Пуассона. Теоремы Муавра-Лапласа.}{33}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Законы больших чисел}{34}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Центральная предельная теорема}{35}{subsection.3.5}%
