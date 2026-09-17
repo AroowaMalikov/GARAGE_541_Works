@@ -17,9 +17,6 @@ venv
 .env
 .vscode/
 
-# data for ml_edu
-mnist
-
 # Вспомогательные файлы LaTeX
 *.aux
 *.log
